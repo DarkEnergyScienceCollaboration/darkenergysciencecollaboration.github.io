@@ -1,124 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<meta charset="utf-8"/>
+
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- link rel="icon" href="../../favicon.ico" -->
+    <title>DESC Code Repositories</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <title>Dark Energy Science Collaboration</title>
+    <!-- Loading list of repos and groups from JSON files -->
+    <script type="text/javascript" src="desc-groups.json"></script>
+    <script type="text/javascript" src="desc-repo.json"></script>
+    <script type="text/javascript" src="assets/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="assets/strftime.js"></script>
+    <script type="text/javascript" src="assets/descnamespace.js"></script>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script>
+      var browserIsIELessThan10 = false;
+      if ($.browser.msie && parseInt($.browser.version, 10) < 10){
+        browserIsIELessThan10 = true;
+        }
+    </script>
 
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript">
+    (function ($, undefined) {
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      var LSSTGlobal = window.LSSTGlobal;
 
-    <!-- Using the great stylesheet from https://github.com/simonwhitaker/github-fork-ribbon-css -->
-    <link rel="stylesheet" href="gh-fork-ribbon.css">
-    <!--[if lt IE 9]>
-        <link rel="stylesheet" href="gh-fork-ribbon.ie.css">
-    <![endif]-->
-    <!-- END -->
+      function addGroupRepresentation(group) {
+        if (group) {
+          var $item = $("<li>").addClass("repo grid-1 " + group.category);
+          var $link = $("<a>").attr("href", "group.html?name=" + group.name).appendTo($item);
+          $link.append($("<h2>").text(group.name));
+          $link.append($("<p>").text(group.description));
+          $item.appendTo("#repos");
+          }
+      }
+
+      function processMembers(members) {
+          $(function () {
+            if (members) {
+              $("#num-members").text(members.length);
+            }
+          });
+        };
+
+      function addGroups(repoGroups) {
+        var repoGroups = desc_groups;
+
+        $(function () {
+          $.each(repoGroups, function (i, group) {
+            addGroupRepresentation(group);
+          });
+        });
+
+      }
+      addGroups();
+
+
+      LSSTGlobal.processReposCallback = LSSTGlobal.addRecentlyUpdatedRepos;
+      LSSTGlobal.processMembersCallback = processMembers;
+
+      LSSTGlobal.initializeCache();
+      LSSTGlobal.findAllOrgsFromReposCatalog(desc_repos);
+
+      if ( browserIsIELessThan10 ) {
+        LSSTGlobal.getReposFromOneOrg   = LSSTGlobal.getReposFromOneOrgWithoutCORS;
+        LSSTGlobal.getMembersFromOneOrg = LSSTGlobal.getMembersFromOneOrgWithoutCORS;
+        }
+
+      LSSTGlobal.getJSONIfModified = LSSTGlobal.getJSONIfModifiedWithCORS;
+      LSSTGlobal.getReposFromAllOrgs();
+      LSSTGlobal.getMembersFromAllOrgs();
+
+    })(jQuery);
+    </script>
   </head>
-
   <body>
+    <div id="wrapper" class="grid clearfix">
+      <div id="main" class="grid-1">
+        <div id="logo"><h1>DESC Code Repositories</h1></div>
+        <a href="/browse">
+          <img src="images/desc-logo.png" alt="DESC Logo" height="200" width="200">
+        </a>
+       <h2>Dark Energy</h2>
+        <h2>Science Collaboration</h2>
+        <p>Visit <a href="http://lsst-desc.org/">lsst-desc.org</a></p>
+        <p><a href="https://confluence.slac.stanford.edu/display/LSSTDESC/Home">Wiki Pages</a></p>
+      </div>
 
+      <div class="grid grid-3">
+        <div id="recently-updated" class="grid-2 omega header">
+          <h1>Recently updated <a
+        href="https://github.com/DarkEnergyScienceCollaboration/repositories">View All on GitHub</a></h1>
+          <ol id="recently-updated-repos"></ol>
+        </div>
 
+        <div id="statistics" class="grid-1 alpha header">
+          <h1>Statistics</h1>
+          <p>
+            <a href="https://github.com/DarkEnergyScienceCollaboration/repositories"><span id="num-repos"><img src="images/spinner.gif" /></span> public repos</a>
+            <br>
+            <a href="https://github.com/DarkEnergyScienceCollaboration?tab=members"><span
+          id="num-members"><img src="images/spinner.gif" /></span>
+          public members</a>
+          </p>
+          <p class="email"><a href="mailto:desc@lsst-desc.org">desc@lsst-desc.org</a></p>
+        </div>
+      </div>
 
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- script src="../../assets/js/ie10-viewport-bug-workaround.js"></script -->
-
-    <script>
-      $('.carousel').carousel({ interval: 8000 });
-    </script>
-
-    <script>
-      // inspired by http://blog.thewebsitepeople.org/2011/05/jquery-scrolling-anchors/
-      // simplified and dropped compatibility with non-HTML5 browsers
-      $(document).ready(function()
-      {
-        /*
-          ****************************************************************
-          Bind to the hashchange event to:
-            1) Provide custom scrolling that takes into account the 
-               height of the navbar
-            2) Highlights the clicked navbar buttons (sets the active class)
-            3) Hide the collapsed menu on small devices, if it was visible
-          ****************************************************************
-        */
-        $(window).on('hashchange', function(e)
-        {
-          hash = location.hash == "" ? "#" : location.hash;
-
-          // guard against trying to scroll to an inexistent target
-          if(element = $(hash)) {
-            // Note that we scroll to the position of the div minus 50px, to account for
-            // the size of the navbar.
-            scrollTo = hash != "#" ? element.offset().top - 50 : 0
-            $('html,body').animate({scrollTop: scrollTo}, 300);
-          }
-
-          // active/inactive setting of navbar buttons
-          $('.nav li').removeClass('active');
-          anchor = $('.nav li a[href=' + hash + ']')
-          if(anchor) {
-              var $parent = anchor.parent();
-              if (!$parent.hasClass('active')) {
-                  $parent.addClass('active');
-              }
-          }
-
-          // On small screen devices, make sure the (collapsed) navbar is hidden
-          // after navigation
-          navbar = $(".navbar-collapse.in")
-          if(navbar.is(":visible")) {
-              navbar.collapse('hide');
-          }
-        });
-
-        /*
-          ****************************************************************
-          Hook into onClick handler of all anchors with fragment targets, and
-          override the default scrolling behavior.
-          ****************************************************************
-        */
-        $('a[href^="#"]').on('click', function(e)
-        {
-          // don't follow the link
-          e.preventDefault();
-
-          // Instead, update history without triggering automatic scrolling
-          hash = this.hash == "" ? "#" : this.hash;
-          history.pushState(null, null, hash);
-
-          $(window).trigger('hashchange');
-        });
-
-        /*
-          ****************************************************************
-          Trigger the initial 'hashchange' event on page load, so if scrolling
-          and navbar button highlighting gets done if the user directly
-          navigated to an achor within the page.
-          ****************************************************************
-        */
-        $(window).trigger('hashchange');
-      });
-    </script>
+      <div class="grid grid-3">
+        <div id="category" class="grid-1 iota iotaleft categoryheader desc">
+          <h4>DESC</h4>
+        </div>
+        <div id="category" class="grid-1 iota iotacenter categoryheader computing">
+          <h4>Computing</h4>
+        </div>
+        <div id="category" class="grid-1 iota iotaright categoryheader analysis">
+          <h4>Analysis</h4>
+        </div>
+      </div>
+      <ol id="repos"></ol>
+    </div>
   </body>
 </html>
