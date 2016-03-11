@@ -1,0 +1,122 @@
+var desc_repos = [
+    {
+        "full_name": "DarkEnergyScienceCollaboration/SupernovaRealizer", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/SLTimeDelayChallenge", 
+        "group": "SL Time Delay Challenge Evil Team "
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/WeakLensingDeblending", 
+        "group": "Weak Lensing"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/psf_model", 
+        "group": "Weak Lensing"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/chroma", 
+        "group": "Weak Lensing"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/DeepFieldArbitraryCadenceGenerator", 
+        "group": "Supernovae"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/Recipes", 
+        "group": "Image Simulation Cooks"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/DataManagementWorkbook", 
+        "group": "Software"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/surveymetrics", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/DataRepo", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/Twinkles", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/TrainingWheels", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CFHTLS-Reprocess", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/DESchool_LSS_Stats", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/sncosmo", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/SNsims", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/sims_photUtils", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/Science_Roadmap", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/TDCcosmoforecasts", 
+        "group": "SL Time Delay Challenge Good Teams"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/BremertonRoundTrip", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/GitHubConnector", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/PhotoZDC1", 
+        "group": "OldOwners"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/DMImageFootprints", 
+        "group": "Members"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/ComputingModel", 
+        "group": "Computing Model Editors"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/ReprocessingTaskForce", 
+        "group": "Data Reprocessing Task Force"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/SRM_Task_List", 
+        "group": "Other"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/DataChallenges", 
+        "group": "Survey Simulations"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/simulating-galaxies", 
+        "group": "Members"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/descqa", 
+        "group": "Simulation Validation Framework"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/SRM-Table", 
+        "group": "Other"
+    }
+];

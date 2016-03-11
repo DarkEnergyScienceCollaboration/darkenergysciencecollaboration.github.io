@@ -1,18 +1,19 @@
 <!DOCTYPE html>
+<meta charset="utf-8"/>
 
 <html>
   <head>
-    <title>LSST Code Repositories</title>
+    <title>DESC Code Repositories</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Loading list of repos and groups from JSON files -->
-    <script type="text/javascript" src="lsst-group.json"></script>
-    <script type="text/javascript" src="lsst-repo.json"></script>
+    <script type="text/javascript" src="desc-groups.json"></script>
+    <script type="text/javascript" src="desc-repo.json"></script>
     <script type="text/javascript" src="assets/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="assets/strftime.js"></script>
-    <script type="text/javascript" src="assets/lsstnamespace.js"></script>
+    <script type="text/javascript" src="assets/descnamespace.js"></script>
 
     <script>
       var browserIsIELessThan10 = false;
@@ -45,7 +46,7 @@
         };
 
       function addGroups(repoGroups) {
-        var repoGroups = lsst_groups;
+        var repoGroups = desc_groups;
 
         $(function () {
           $.each(repoGroups, function (i, group) {
@@ -61,7 +62,7 @@
       LSSTGlobal.processMembersCallback = processMembers;
 
       LSSTGlobal.initializeCache();
-      LSSTGlobal.findAllOrgsFromReposCatalog(lsst_repos);
+      LSSTGlobal.findAllOrgsFromReposCatalog(desc_repos);
 
       if ( browserIsIELessThan10 ) {
         LSSTGlobal.getReposFromOneOrg   = LSSTGlobal.getReposFromOneOrgWithoutCORS;
@@ -78,53 +79,47 @@
   <body>
     <div id="wrapper" class="grid clearfix">
       <div id="main" class="grid-1">
-        <div id="logo"><h1>LSST Code Repositories</h1></div>
+        <div id="logo"><h1>DESC Code Repositories</h1></div>
         <a href="/browse">
-          <img src="images/logo.png" alt="LSST Logo" height="200" width="200">
+          <img src="images/desc-logo.png" alt="DESC Logo" height="200" width="200">
         </a>
-       <h2>Large Synoptic</h2>
-        <h2>Survey Telescope</h2>
-	<h2>Open Source Software</h2>
-        <p>Visit <a href="http://lsst.org/">lsst.org</a></p>
-        <p><a href="https://confluence.lsstcorp.org">Wiki Pages</a></p>
+       <h2>Dark Energy</h2>
+        <h2>Science Collaboration</h2>
+        <p>Visit <a href="http://lsst-desc.org/">lsst-desc.org</a></p>
+        <p><a href="https://confluence.slac.stanford.edu/display/LSSTDESC/Home">Wiki Pages</a></p>
       </div>
 
       <div class="grid grid-3">
         <div id="recently-updated" class="grid-2 omega header">
-          <h1>Recently updated <a href="https://github.com/lsst/repositories">View All on GitHub</a></h1>
+          <h1>Recently updated <a
+        href="https://github.com/DarkEnergyScienceCollaboration/repositories">View All on GitHub</a></h1>
           <ol id="recently-updated-repos"></ol>
         </div>
 
         <div id="statistics" class="grid-1 alpha header">
           <h1>Statistics</h1>
           <p>
-            <a href="https://github.com/lsst/repositories"><span id="num-repos"><img src="images/spinner.gif" /></span> public repos</a>
+            <a href="https://github.com/DarkEnergyScienceCollaboration/repositories"><span id="num-repos"><img src="images/spinner.gif" /></span> public repos</a>
             <br>
-            <a href="https://github.com/lsst?tab=members"><span
+            <a href="https://github.com/DarkEnergyScienceCollaboration?tab=members"><span
           id="num-members"><img src="images/spinner.gif" /></span>
           public members</a>
           </p>
-          <p class="email"><a href="mailto:lsst@lsst.org">lsst@lsst.org</a></p>
+          <p class="email"><a href="mailto:desc@lsst-desc.org">desc@lsst-desc.org</a></p>
         </div>
       </div>
 
       <div class="grid grid-3">
-        <div id="category" class="grid-1 iota iotaleft categoryheader dm">
-          <h4>Data Management</h4>
+        <div id="category" class="grid-1 iota iotaleft categoryheader desc">
+          <h4>DESC</h4>
         </div>
-        <div id="category" class="grid-1 iota iotacenter categoryheader simulations">
-          <h4>Simulations</h4>
+        <div id="category" class="grid-1 iota iotacenter categoryheader computing">
+          <h4>Computing</h4>
         </div>
-        <div id="category" class="grid-1 iota iotaright categoryheader telescope">
-          <h4>Telescope</h4>
-        </div>
-      </div>
-      <div class="grid grid-3">
-        <div id="category" class="grid-1 iota iotaleft categoryheader epo">
-	  <h4>Outreach</h4>
+        <div id="category" class="grid-1 iota iotaright categoryheader analysis">
+          <h4>Analysis</h4>
         </div>
       </div>
-
       <ol id="repos"></ol>
     </div>
   </body>

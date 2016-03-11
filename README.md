@@ -1,2 +1,2 @@
-lsst.github.io
+desc.github.io
 ==============

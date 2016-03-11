@@ -212,15 +212,15 @@ li.repo h3 {
   border-right-color: #ffffff;
 }
 
-.repo.simulations:after {
+.repo.desc:after {
   border-right-color: #0080b0;
 }
 
-.repo.dm:after {
+.repo.computing:after {
   border-right-color: #6aad2d;
 }
 
-.repo.telescope:after {
+.repo.analysis:after {
   border-right-color: #8f8f8f;
 }
 
@@ -229,17 +229,17 @@ li.repo h3 {
   border-right-color: #990000;
 }
 
-div.categoryheader.simulations {
+div.categoryheader.desc {
   background: #0080b0;
   color: white;
 }
 
-div.categoryheader.dm {
+div.categoryheader.computing {
   background: #6aad2d;
   color: white;
 }
 
-div.categoryheader.telescope {
+div.categoryheader.analysis {
   background: #8f8f8f;
   color: white;
 }

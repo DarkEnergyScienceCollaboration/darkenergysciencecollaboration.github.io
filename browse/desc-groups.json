@@ -1,0 +1,156 @@
+var desc_groups = [
+    {
+        "category": "desc", 
+        "description": "Administration of the LSST DESC GitHub organization", 
+        "name": "Admin"
+    }, 
+    {
+        "category": "computing", 
+        "description": "BremertonRoundTripHackers", 
+        "name": "BremertonRoundTripHackers"
+    }, 
+    {
+        "category": "computing", 
+        "description": "CFHT LS Reprocess", 
+        "name": "CFHT LS Reprocess"
+    }, 
+    {
+        "category": "computing", 
+        "description": "CI1 Resources Study Group", 
+        "name": "CI1 Resources Study Group"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Internal review of the CI2 software study group report", 
+        "name": "CI2 Reviewers"
+    }, 
+    {
+        "category": "computing", 
+        "description": "CI2 Software Study Group", 
+        "name": "CI2 Software Study Group"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "Clusters", 
+        "name": "Clusters"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "Combined Probes, Theory", 
+        "name": "Combined Probes, Theory"
+    }, 
+    {
+        "category": "computing", 
+        "description": "(Do not modify this list by hand, see https://confluence.slac.stanford.edu/x/YQTpCw) ", 
+        "name": "Computing Infrastructure"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Contributing text to the CI1 and CI2 resources and software documents", 
+        "name": "Computing Model Contributors"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Editing the CI1 and CI2 documents (on resources and software respectively)", 
+        "name": "Computing Model Editors"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Cosmological Simulations", 
+        "name": "Cosmological Simulations"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Members of the Cosmological Simulations working group", 
+        "name": "CosmoSim"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Data Reprocessing Task Force", 
+        "name": "Data Reprocessing Task Force"
+    }, 
+    {
+        "category": "desc", 
+        "description": "Full Members of DESC (Do not modify this list by hand, see https://confluence.slac.stanford.edu/x/YQTpCw)", 
+        "name": "Full Members"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Image Simulation Cooks", 
+        "name": "Image Simulation Cooks"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "Large Scale Structure", 
+        "name": "Large Scale Structure"
+    }, 
+    {
+        "category": "desc", 
+        "description": "The current spokesperson, deputy, coordinators and WG conveners.", 
+        "name": "Leadership"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "The LSST strong lensing community (including non-DESC members)", 
+        "name": "LSST Strong Lensing"
+    }, 
+    {
+        "category": "desc", 
+        "description": "github admin of LSST strong lensing project repos", 
+        "name": "LSST Strong Lensing Admins"
+    }, 
+    {
+        "category": "desc", 
+        "description": "Members of the DESC \r\n(Do not modify this list by hand, see https://confluence.slac.stanford.edu/x/YQTpCw)", 
+        "name": "Members"
+    }, 
+    {
+        "category": "desc", 
+        "description": "Oct 6th SRM Reviewers", 
+        "name": "Oct 6th SRM Reviewers"
+    }, 
+    {
+        "category": "desc", 
+        "description": "These used to be the Owners of the DESC org, and got all the email whenever a new repo was started...", 
+        "name": "OldOwners"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Photon Simulator", 
+        "name": "Photon Simulator"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "Photoz", 
+        "name": "Photoz"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Development of the descqa simulation validation framework.", 
+        "name": "Simulation Validation Framework"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "SL Time Delay Challenge Evil Team ", 
+        "name": "SL Time Delay Challenge Evil Team "
+    }, 
+    {
+        "category": "analysis", 
+        "description": "People who entered the strong lens time delay challenge, and are working on papers exploiting its results.", 
+        "name": "SL Time Delay Challenge Good Teams"
+    }, 
+    {
+        "category": "computing", 
+        "description": "Software", 
+        "name": "Software"
+    }, 
+    {
+        "category": "desc", 
+        "description": "People writing text for the Science_Roadmap", 
+        "name": "SRM Contributors"
+    }, 
+    {
+        "description": "Unassigned repo", 
+        "name": "Other"
+    }
+];
