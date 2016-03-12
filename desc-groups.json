@@ -1,53 +1,18 @@
 var desc_groups = [
     {
-        "category": "computing", 
-        "description": "BremertonRoundTripHackers", 
-        "name": "BremertonRoundTripHackers"
-    }, 
-    {
         "category": "analysis", 
-        "description": "CFHT LS Reprocess", 
-        "name": "CFHT LS Reprocess"
-    }, 
-    {
-        "category": "computing", 
-        "description": "CI1 Resources Study Group", 
-        "name": "CI1 Resources Study Group"
-    }, 
-    {
-        "category": "computing", 
-        "description": "Internal review of the CI2 software study group report", 
-        "name": "CI2 Reviewers"
-    }, 
-    {
-        "category": "computing", 
-        "description": "CI2 Software Study Group", 
-        "name": "CI2 Software Study Group"
-    }, 
-    {
-        "category": "desc", 
         "description": "Clusters", 
         "name": "Clusters"
     }, 
     {
-        "category": "desc", 
+        "category": "analysis", 
         "description": "Combined Probes, Theory", 
         "name": "Combined Probes, Theory"
     }, 
     {
         "category": "computing", 
-        "description": "Computing Infrastructure", 
+        "description": "Computing and Infrastructure Repositories", 
         "name": "Computing Infrastructure"
-    }, 
-    {
-        "category": "computing", 
-        "description": "Contributing text to the CI1 and CI2 resources and software documents", 
-        "name": "Computing Model Contributors"
-    }, 
-    {
-        "category": "computing", 
-        "description": "Editing the CI1 and CI2 documents (on resources and software respectively)", 
-        "name": "Computing Model Editors"
     }, 
     {
         "category": "computing", 
@@ -56,43 +21,23 @@ var desc_groups = [
     }, 
     {
         "category": "computing", 
-        "description": "Members of the Cosmological Simulations working group", 
-        "name": "CosmoSim"
-    }, 
-    {
-        "category": "computing", 
         "description": "Data Reprocessing Task Force", 
         "name": "Data Reprocessing Task Force"
-    }, 
-    {
-        "category": "computing", 
-        "description": "Image Simulation Cooks", 
-        "name": "Image Simulation Cooks"
     }, 
     {
         "category": "analysis", 
         "description": "Large Scale Structure", 
         "name": "Large Scale Structure"
     }, 
-    {
-        "category": "desc", 
-        "description": "The current spokesperson, deputy, coordinators and WG conveners.", 
-        "name": "Leadership"
-    }, 
-    {
-        "category": "analysis", 
-        "description": "The LSST strong lensing community (including non-DESC members)", 
-        "name": "LSST Strong Lensing"
+     {
+        "category": "Training", 
+        "description": "Training and education", 
+        "name": "Training"
     }, 
     {
         "category": "desc", 
-        "description": "Oct 6th SRM Reviewers", 
-        "name": "Oct 6th SRM Reviewers"
-    }, 
-    {
-        "category": "desc", 
-        "description": "These used to be the Owners of the DESC org", 
-        "name": "OldOwners"
+        "description": "DESC management, planning, and development", 
+        "name": "DESC"
     }, 
     {
         "category": "computing", 
@@ -104,36 +49,7 @@ var desc_groups = [
         "description": "Photoz", 
         "name": "Photoz"
     }, 
-    {
-        "category": "computing", 
-        "description": "Development of the desc simulation validation framework.", 
-        "name": "Simulation Validation Framework"
-    }, 
-    {
-        "category": "analysis", 
-        "description": "SL Time Delay Challenge Evil Team ", 
-        "name": "SL Time Delay Challenge Evil Team "
-    }, 
-    {
-        "category": "analysis", 
-        "description": "People who entered the strong lens time delay challenge, and are working on papers exploiting its results.", 
-        "name": "SL Time Delay Challenge Good Teams"
-    }, 
-    {
-        "category": "computing", 
-        "description": "Software", 
-        "name": "Software"
-    }, 
-    {
-        "category": "desc", 
-        "description": "People writing text for the Science_Roadmap", 
-        "name": "SRM Contributors"
-    }, 
-    {
-        "category": "desc", 
-        "description": "SRM Red Team Reviewers", 
-        "name": "SRM Red Team Reviewers"
-    }, 
+
     {
         "category": "analysis", 
         "description": "Strong Lensing", 

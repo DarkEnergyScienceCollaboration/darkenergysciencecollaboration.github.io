@@ -225,8 +225,12 @@ li.repo h3 {
 }
 
 
-.repo.epo:after {
+.repo.training:after {
   border-right-color: #990000;
+}
+
+.repo.other:after {
+  border-right-color: #009999;
 }
 
 div.categoryheader.desc {
@@ -244,8 +248,13 @@ div.categoryheader.analysis {
   color: white;
 }
 
-div.categoryheader.epo {
+div.categoryheader.training {
   background: #990000;
+  color: white;
+}
+
+div.categoryheader.other {
+  background: #009999;
   color: white;
 }
 

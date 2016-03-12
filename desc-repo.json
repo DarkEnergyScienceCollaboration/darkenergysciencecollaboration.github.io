@@ -1,11 +1,11 @@
 var desc_repos = [
     {
         "full_name": "DarkEnergyScienceCollaboration/SupernovaRealizer", 
-        "group": "OldOwners"
+        "group": "Supernovae"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/SLTimeDelayChallenge", 
-        "group": "SL Time Delay Challenge Evil Team "
+        "group": "Strong Lensing"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/WeakLensingDeblending", 
@@ -25,75 +25,75 @@ var desc_repos = [
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/Recipes", 
-        "group": "Image Simulation Cooks"
+        "group": "Training"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/DataManagementWorkbook", 
-        "group": "Software"
+        "group": "Training"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/surveymetrics", 
-        "group": "OldOwners"
+        "group": "Survey Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/DataRepo", 
-        "group": "OldOwners"
+        "group": "Other"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/Twinkles", 
-        "group": "OldOwners"
+        "group": "Twinkles"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/TrainingWheels", 
-        "group": "OldOwners"
+        "group": "Strong Lensing"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CFHTLS-Reprocess", 
-        "group": "OldOwners"
+        "group": "Data Reprocessing Task Force"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/DESchool_LSS_Stats", 
-        "group": "OldOwners"
+        "group": "Training"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/sncosmo", 
-        "group": "OldOwners"
+        "group": "Supernovae"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/SNsims", 
-        "group": "OldOwners"
+        "group": "Supernovae"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/sims_photUtils", 
-        "group": "OldOwners"
+        "group": "Survey Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/Science_Roadmap", 
-        "group": "OldOwners"
+        "group": "DESC"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/TDCcosmoforecasts", 
-        "group": "SL Time Delay Challenge Good Teams"
+        "group": "Strong Lensing"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/BremertonRoundTrip", 
-        "group": "OldOwners"
+        "group": "Weak Lensing"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/GitHubConnector", 
-        "group": "OldOwners"
+        "group": "Other"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/PhotoZDC1", 
-        "group": "OldOwners"
+        "group": "Photoz"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/DMImageFootprints", 
-        "group": "Members"
+        "group": "Computing Infrastructure"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/ComputingModel", 
-        "group": "Computing Model Editors"
+        "group": "Computing Infrastructure"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/ReprocessingTaskForce", 
@@ -101,7 +101,7 @@ var desc_repos = [
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/SRM_Task_List", 
-        "group": "Other"
+        "group": "DESC"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/DataChallenges", 
@@ -109,27 +109,26 @@ var desc_repos = [
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/simulating-galaxies", 
-        "group": "Members"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/descqa", 
-        "group": "Simulation Validation Framework"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/SRM-Table", 
-        "group": "Other"
+        "group": "DESC"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/DESchool", 
-        "group": "Other"
+        "group": "Training"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/templates_alpha_discussion", 
-        "group": "Other"
-    }, 
+        "group": "Computing Infrastructure" }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/SLTimer", 
-        "group": "Strong Lensing"
+        "group": "Twinkles"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/Monitor", 
@@ -137,107 +136,107 @@ var desc_repos = [
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/ComputingInfrastructure", 
-        "group": "Members"
+        "group": "Computing Infrastructure"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS1.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS1.2", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS2.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS2.2", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS3.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS3.2", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS4.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS4.2", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS4.3", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS4.4", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS4.5", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS5.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS5.2", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS6.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS6.2", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS7.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS7.2", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS7.3", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS8.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS8.2", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS9.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/CS10.1", 
-        "group": "CosmoSim"
+        "group": "Cosmological Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/ObservingStrategy", 
-        "group": "Other"
+        "group": "Survey Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/desc_package_template", 
-        "group": "Other"
+        "group": "Computing Infrastructure"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/PhotometryBakeoff", 
-        "group": "Other"
+        "group": "Survey Simulations"
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/darkenergysciencecollaboration.github.io", 
@@ -245,6 +244,6 @@ var desc_repos = [
     }, 
     {
         "full_name": "DarkEnergyScienceCollaboration/2pcf_LN", 
-        "group": "Other"
+        "group": "Large Scale Structure"
     }
 ];
