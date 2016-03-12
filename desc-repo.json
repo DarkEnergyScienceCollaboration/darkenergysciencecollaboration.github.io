@@ -118,5 +118,133 @@ var desc_repos = [
     {
         "full_name": "DarkEnergyScienceCollaboration/SRM-Table", 
         "group": "Other"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/DESchool", 
+        "group": "Other"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/templates_alpha_discussion", 
+        "group": "Other"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/SLTimer", 
+        "group": "Strong Lensing"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/Monitor", 
+        "group": "Twinkles"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/ComputingInfrastructure", 
+        "group": "Members"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS1.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS1.2", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS2.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS2.2", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS3.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS3.2", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS4.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS4.2", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS4.3", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS4.4", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS4.5", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS5.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS5.2", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS6.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS6.2", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS7.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS7.2", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS7.3", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS8.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS8.2", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS9.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/CS10.1", 
+        "group": "CosmoSim"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/ObservingStrategy", 
+        "group": "Other"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/desc_package_template", 
+        "group": "Other"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/PhotometryBakeoff", 
+        "group": "Other"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/darkenergysciencecollaboration.github.io", 
+        "group": "Other"
+    }, 
+    {
+        "full_name": "DarkEnergyScienceCollaboration/2pcf_LN", 
+        "group": "Other"
     }
 ];
