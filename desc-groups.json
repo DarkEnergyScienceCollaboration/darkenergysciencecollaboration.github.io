@@ -1,16 +1,11 @@
 var desc_groups = [
     {
-        "category": "desc", 
-        "description": "Administration of the LSST DESC GitHub organization", 
-        "name": "Admin"
-    }, 
-    {
         "category": "computing", 
         "description": "BremertonRoundTripHackers", 
         "name": "BremertonRoundTripHackers"
     }, 
     {
-        "category": "computing", 
+        "category": "analysis", 
         "description": "CFHT LS Reprocess", 
         "name": "CFHT LS Reprocess"
     }, 
@@ -30,18 +25,18 @@ var desc_groups = [
         "name": "CI2 Software Study Group"
     }, 
     {
-        "category": "analysis", 
+        "category": "desc", 
         "description": "Clusters", 
         "name": "Clusters"
     }, 
     {
-        "category": "analysis", 
+        "category": "desc", 
         "description": "Combined Probes, Theory", 
         "name": "Combined Probes, Theory"
     }, 
     {
         "category": "computing", 
-        "description": "(Do not modify this list by hand, see https://confluence.slac.stanford.edu/x/YQTpCw) ", 
+        "description": "Computing Infrastructure", 
         "name": "Computing Infrastructure"
     }, 
     {
@@ -70,11 +65,6 @@ var desc_groups = [
         "name": "Data Reprocessing Task Force"
     }, 
     {
-        "category": "desc", 
-        "description": "Full Members of DESC (Do not modify this list by hand, see https://confluence.slac.stanford.edu/x/YQTpCw)", 
-        "name": "Full Members"
-    }, 
-    {
         "category": "computing", 
         "description": "Image Simulation Cooks", 
         "name": "Image Simulation Cooks"
@@ -96,22 +86,12 @@ var desc_groups = [
     }, 
     {
         "category": "desc", 
-        "description": "github admin of LSST strong lensing project repos", 
-        "name": "LSST Strong Lensing Admins"
-    }, 
-    {
-        "category": "desc", 
-        "description": "Members of the DESC \r\n(Do not modify this list by hand, see https://confluence.slac.stanford.edu/x/YQTpCw)", 
-        "name": "Members"
-    }, 
-    {
-        "category": "desc", 
         "description": "Oct 6th SRM Reviewers", 
         "name": "Oct 6th SRM Reviewers"
     }, 
     {
         "category": "desc", 
-        "description": "These used to be the Owners of the DESC org, and got all the email whenever a new repo was started...", 
+        "description": "These used to be the Owners of the DESC org", 
         "name": "OldOwners"
     }, 
     {
@@ -126,7 +106,7 @@ var desc_groups = [
     }, 
     {
         "category": "computing", 
-        "description": "Development of the descqa simulation validation framework.", 
+        "description": "Development of the desc simulation validation framework.", 
         "name": "Simulation Validation Framework"
     }, 
     {
@@ -150,7 +130,37 @@ var desc_groups = [
         "name": "SRM Contributors"
     }, 
     {
+        "category": "desc", 
+        "description": "SRM Red Team Reviewers", 
+        "name": "SRM Red Team Reviewers"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "Strong Lensing", 
+        "name": "Strong Lensing"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "Supernovae", 
+        "name": "Supernovae"
+    }, 
+    {
+        "category": "computing", 
+        "description": "The SSim Working Group", 
+        "name": "Survey Simulations"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "Working on the Twinkles project (a tiny synoptic phosim survey)", 
+        "name": "Twinkles"
+    }, 
+    {
+        "category": "analysis", 
+        "description": "Weak Lensing", 
+        "name": "Weak Lensing"
+    }, 
+    {
         "description": "Unassigned repo", 
         "name": "Other"
     }
-];
+]
